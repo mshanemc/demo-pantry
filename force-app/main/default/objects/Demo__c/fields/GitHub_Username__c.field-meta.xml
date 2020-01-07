@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>GitHub Username</label>
+    <type>Text</type>
+    <fullName>GitHub_Username__c</fullName>
+    <length>255</length>
+</CustomField>

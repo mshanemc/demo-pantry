@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>GitHub Repo</label>
+    <type>Text</type>
+    <fullName>GitHub_Repo__c</fullName>
+    <length>255</length>
+</CustomField>
