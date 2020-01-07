@@ -4,7 +4,11 @@
   "features": ["COMMUNITIES"],
   "settings": {
     "communitiesSettings": {
-      "enableNetworksEnabled": true
+      "enableNetworksEnabled": true,
+      "enableCommunityWorkspaces": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
     },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
