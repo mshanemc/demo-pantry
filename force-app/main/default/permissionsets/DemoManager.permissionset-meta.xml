@@ -31,6 +31,22 @@
         <editable>true</editable>
         <field>Demo__c.Guide__c</field>
     </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <field>Demo__c.Scratch_Org_Deploy__c</field>
+    </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <field>Demo__c.Existing_Org_Deploy__c</field>
+    </fieldPermissions>
+    <tabSettings>
+        <tab>Demo__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Demo__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
     <tabSettings>
         <tab>Demo__c</tab>
         <visibility>Visible</visibility>
