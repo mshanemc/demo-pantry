@@ -1,8 +1,0 @@
-{
-  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
-  "id" : "84de67e7-a6ea-4f27-a0d5-9c72118f1130",
-  "label" : "Dashboard Detail",
-  "routeType" : "detail-01Z",
-  "type" : "route",
-  "urlPrefix" : "dashboard"
-}

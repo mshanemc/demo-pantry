@@ -1,8 +1,0 @@
-{
-  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
-  "id" : "b3360b69-0ffa-499f-86fd-31a8b11d4954",
-  "label" : "Dashboard Lista relacionada",
-  "routeType" : "relatedlist-01Z",
-  "type" : "route",
-  "urlPrefix" : "dashboard"
-}

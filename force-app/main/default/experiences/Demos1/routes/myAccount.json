@@ -1,9 +1,0 @@
-{
-  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
-  "id" : "c53c7198-fb94-42c1-9380-832e5090f330",
-  "label" : "My Account",
-  "pageAccess" : "UseParent",
-  "routeType" : "my-account",
-  "type" : "route",
-  "urlPrefix" : "my-account"
-}

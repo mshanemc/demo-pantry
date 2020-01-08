@@ -1,9 +1,0 @@
-{
-  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
-  "id" : "4aa5a4a0-8d97-48ef-91dc-1dc1c2617739",
-  "label" : "Record List",
-  "pageAccess" : "UseParent",
-  "routeType" : "list",
-  "type" : "route",
-  "urlPrefix" : "recordlist"
-}

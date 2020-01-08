@@ -1,9 +1,0 @@
-{
-  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
-  "id" : "031e0efe-60bc-4a79-be3b-7f092bdd4274",
-  "label" : "Contact Us",
-  "pageAccess" : "UseParent",
-  "routeType" : "contactsupport",
-  "type" : "route",
-  "urlPrefix" : "contactsupport"
-}

@@ -1,8 +1,0 @@
-{
-  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
-  "id" : "a7d8b698-2d26-45bd-bdff-f47e88d3b215",
-  "label" : "File Lista relacionada",
-  "routeType" : "relatedlist-069",
-  "type" : "route",
-  "urlPrefix" : "contentdocument"
-}
