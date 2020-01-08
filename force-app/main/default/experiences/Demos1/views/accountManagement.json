@@ -1,0 +1,122 @@
+{
+  "appPageId" : "1663b0ed-0fc3-497c-893d-8c06e82a7ad6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "f989cb40-9c8a-412c-bc33-04459c934a01",
+  "label" : "Account Management",
+  "regions" : [ {
+    "id" : "c1265290-9217-4cb7-8f0c-e990de794352",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "499687cb-36fd-4ae7-a788-2a591c4eb919",
+          "activeTab" : "tab1",
+          "useOverflowMenu" : false,
+          "tabs" : [ {
+            "UUID" : "a7f790d6-7e52-4dbc-b279-7743e117e137",
+            "tabName" : "Members",
+            "tabKey" : "tab1",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ {
+              "fqn" : "forceCommunity:relatedList",
+              "attributes" : {
+                "parentRecordId" : "{!CurrentUser.accountId}",
+                "relatedListName" : "Users",
+                "customTitle" : "Members",
+                "showCustomTitle" : "true",
+                "showBreadCrumbs" : "false",
+                "showRowNumbers" : "false",
+                "showManualRefreshButton" : "false"
+              }
+            } ]
+          }, {
+            "UUID" : "f57cf1ab-87c2-410f-9b08-6a98be13c996",
+            "tabName" : "Branding",
+            "tabKey" : "tab2",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ {
+              "fqn" : "forceCommunity:accountBrandRecord",
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}"
+              }
+            } ]
+          } ]
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "499687cb-36fd-4ae7-a788-2a591c4eb919",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "Members",
+            "parentRecordId" : "{!CurrentUser.accountId}",
+            "relatedListName" : "Users",
+            "showBreadCrumbs" : false,
+            "showCustomTitle" : true,
+            "showManualRefreshButton" : false,
+            "showRowNumbers" : false
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "d1e15a53-6972-449c-ade6-b994a1b59857",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a7f790d6-7e52-4dbc-b279-7743e117e137",
+        "regionLabel" : "Members",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!CurrentUser.accountId}"
+          },
+          "componentName" : "forceCommunity:accountBrandRecord",
+          "id" : "c631c681-6e41-444a-8550-0ad078e7a401",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f57cf1ab-87c2-410f-9b08-6a98be13c996",
+        "regionLabel" : "Branding",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "51ba5f69-420c-4bef-bca8-f1db24f15939",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "982d1394-c76e-4507-b49c-6ca8d6e0fc80",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Account Management"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8d443060-4458-4f55-b813-53fc1eb405be",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d5a02526-642e-4be8-a56d-3f22e9c8b75b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "account-management"
+}
