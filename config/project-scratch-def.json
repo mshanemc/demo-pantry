@@ -1,11 +1,12 @@
 {
   "orgName": "demo-pantry",
   "edition": "Developer",
-  "features": ["COMMUNITIES"],
+  "features": ["COMMUNITIES", "EXTERNALSHARING"],
   "settings": {
+    "analyticsSettings": {},
     "communitiesSettings": {
       "enableNetworksEnabled": true,
-      "enableCommunityWorkspaces": true
+      "enableNetPortalUserReportOpts": true
     },
     "experienceBundleSettings": {
       "enableExperienceBundleMetadata": true
