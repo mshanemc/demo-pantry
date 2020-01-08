@@ -1,0 +1,9 @@
+{
+  "appPageId" : "31c308d1-9fef-4524-82e7-ff359fb595c5",
+  "id" : "647cc8e8-20c1-4443-8a74-2c24ec4c73dc",
+  "label" : "Resources",
+  "pageAccess" : "UseParent",
+  "routeType" : "files",
+  "type" : "route",
+  "urlPrefix" : "files"
+}

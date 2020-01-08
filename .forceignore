@@ -13,3 +13,4 @@ package.xml
 
 # Guest profiles for communities can't go, either
 force-app/main/default/profiles/Demos Profile.profile-meta.xml
+**/appMenus
