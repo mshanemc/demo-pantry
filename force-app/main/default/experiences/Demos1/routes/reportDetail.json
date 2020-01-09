@@ -1,8 +1,0 @@
-{
-  "appPageId" : "31c308d1-9fef-4524-82e7-ff359fb595c5",
-  "id" : "7ce03951-53e7-4a84-af67-cfc8d0dc3505",
-  "label" : "Report Detail",
-  "routeType" : "detail-00O",
-  "type" : "route",
-  "urlPrefix" : "report"
-}

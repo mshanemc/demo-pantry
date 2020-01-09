@@ -1,8 +1,0 @@
-{
-  "appPageId" : "31c308d1-9fef-4524-82e7-ff359fb595c5",
-  "id" : "1fb801bd-383e-4304-a467-7ee41b858fa0",
-  "label" : "User Related List",
-  "routeType" : "relatedlist-005",
-  "type" : "route",
-  "urlPrefix" : "profile"
-}

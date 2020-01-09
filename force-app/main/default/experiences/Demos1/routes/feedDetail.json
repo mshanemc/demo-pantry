@@ -1,8 +1,0 @@
-{
-  "appPageId" : "31c308d1-9fef-4524-82e7-ff359fb595c5",
-  "id" : "c3c8ebe6-d0e6-47c1-9721-fa691b0e5bde",
-  "label" : "Feed Detail",
-  "routeType" : "feeditem-generic",
-  "type" : "route",
-  "urlPrefix" : "feed"
-}

@@ -1,8 +1,0 @@
-{
-  "appPageId" : "31c308d1-9fef-4524-82e7-ff359fb595c5",
-  "id" : "78a876f7-4f29-4886-946e-374b11bd6e4f",
-  "label" : "Question Detail",
-  "routeType" : "feeditem",
-  "type" : "route",
-  "urlPrefix" : "question"
-}
