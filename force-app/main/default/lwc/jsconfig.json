@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/demoTiles": [
+                "demoTiles/demoTiles.js"
+            ],
+            "c/demoTile": [
+                "demoTile/demoTile.js"
+            ]
+        }
     },
     "include": [
         "**/*",

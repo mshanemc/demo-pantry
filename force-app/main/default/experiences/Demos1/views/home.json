@@ -4,26 +4,6 @@
   "id" : "d36aa907-1ae4-42a1-9f20-50fc312e2211",
   "label" : "Home",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<img class='sfdcCbImage' src='/sfsites/c/img/community/cpt/cpt-home-banner.png'             style='width:100%;'/>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "4ec5bd65-e0b6-469f-88ce-b6318ceabec1",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "showHoverIcon" : true,
-        "tileMenuEditor" : ""
-      },
-      "componentName" : "forceCommunity:tileMenu",
-      "id" : "cbb0148e-52a5-472f-9a91-8e19f08aaccf",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "6337dcfa-3736-47cd-9ad7-4a88b8989df4",
     "regionName" : "header",
     "type" : "region"
