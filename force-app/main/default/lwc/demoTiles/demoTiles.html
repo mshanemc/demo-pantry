@@ -1,5 +1,13 @@
 <template>
-  <template for:each={demos} for:item="demo">
-    {demo.Id}
+  <p>
+    There might be some introductory text here telling people what to do. Will
+    probably want to move this to Salesforce CMS for various reasons.
+  </p>
+  <template if:true={demos}>
+    <div class="container">
+      <template for:each={demos} for:item="demo">
+        <c-demo-tile record-id={demo.id} key={demo.id}></c-demo-tile>
+      </template>
+    </div>
   </template>
 </template>

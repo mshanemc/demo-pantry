@@ -1,3 +1,15 @@
 <template>
-    
+  <template if:true={record}>
+    <lightning-card title={record.fields.Name.value}>
+      <lightning-button
+        label="Details"
+        onclick={details}
+        slot="actions"
+        variant="brand"
+      ></lightning-button>
+      <p class="slds-p-horizontal_small">
+        {record.fields.Description__c.value}
+      </p>
+    </lightning-card>
+  </template>
 </template>

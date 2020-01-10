@@ -14,7 +14,7 @@
     "watch": [
       "force-app"
     ],
-    "exec": "sfdx force:source:push",
+    "exec": "sfdx force:source:deploy -p force-app/main/default",
     "ext": "cls,xml,json,js,trigger,cmp,css,design,svg,html",
     "delay": "2500"
   },

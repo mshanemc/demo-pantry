@@ -162,7 +162,14 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Demos</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Guide__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GitHub_Username__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GitHub_Repo__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
